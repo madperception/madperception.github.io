@@ -94,14 +94,14 @@ body {
 /*    max-width: 640px;*/
     max-height: 550px;
     height: auto; 
- box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.15);
+ box-shadow: 0px 30px 200px rgba(0, 0, 0, 0.12);
     position:relative;
     z-index:1000;
 
 }
 .galleryImage:hover{
 /*       box-shadow: 0px 20px 100px rgba(0,0,0, .3); */
-     box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.15);
+     box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.25);
     z-index: 1;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.008);

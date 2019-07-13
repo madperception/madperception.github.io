@@ -414,7 +414,75 @@ color: #393b45;
 {
   display: table;
     margin: auto;
+    max-width: 35%;
     
+}
+
+.review-quote
+{
+/*    text-align: center;*/
+    
+    display: block;
+    max-width: 50%;  
+    margin: auto;
+
+/*    margin: 0px;*/
+}
+
+.review-link{
+        color: rgba(235, 47, 47, 0.89);
+font-family: 'Raleway', sans-serif;
+}
+
+
+.app-store-links {
+  margin: auto;
+/*  max-width: 100%;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 80px;
+}
+
+.app-store-links a {
+/*  padding: 10px;*/
+    margin: 10px;
+/*    padding-bottom: 5;*/
+/*  flex-grow: 1;*/
+/*  min-width: 150px;*/
+/*  width: 50%;*/
+  height: 100%;
+  display: inline-block;
+    border-radius:50px;
+         box-shadow: 0px 0px 50px rgba(75, 75, 75, 0.50);
+
+}
+
+.app-store-links a img {
+  height: 100%;
+}
+
+/*
+.storeButtons
+{
+    text-align: center;
+    display:block;
+    margin:auto;
+    width: 10%;
+    clear: both;
+
+}
+
+#store-button{
+    width: 10%;
+}
+*/
+
+.storeButtons-button
+{
+    display: table;
+    margin: auto;
+  padding: 10px;
 }
 
 .newHeader img{
