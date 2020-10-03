@@ -1,0 +1,185 @@
+body {
+    // font-family: "Raleway", sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+// Fine Circle Responsive Image
+// Inspired by https://stackoverflow.com/a/6615994/10194811
+#container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+#dummy {
+    padding-top: 100%; /* 1:1 aspect ratio */
+}
+
+#element {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.site-logo {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+//+++++++++++++++++++++++++++++++++++++
+a {
+    color: #1e6bb8;
+    text-decoration: none;
+    margin: auto;
+    position: relative;
+    background: #222;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: auto;
+    display: inline-block;
+    color: rgba(235, 47, 47, 0.89);
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    text-decoration: none;
+}
+.btn:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e00f0f;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+a.active {
+    background-color: yellow;
+}
+.btn:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.btn:hover {
+    /*        background-color: rgba(255, 255, 255, 0.2);*/
+    border-color: rgba(255, 255, 255, 0.3);
+}
+.btn + .btn {
+    margin-left: 1rem;
+}
+@media screen and (min-width: 64em) {
+    .btn {
+        padding: 0.75rem 1rem;
+    }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .btn {
+        padding: 0.6rem 0.9rem;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 42em) {
+    .btn {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1.5rem;
+    }
+    .btn + .btn {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.youtubeVideo {
+    text-align: center;
+    max-width: 70%;
+    height: auto;
+    // height: 850px;
+    margin: auto;
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.22);
+    z-index: 1000;
+}
+
+.youtubeVideo:hover {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.008);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.008);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.008);
+    transition: all 200ms ease-in;
+    transform: scale(1.008);
+}
+
+.galleryImage {
+    width: 70%;
+    // max-width: 745px;
+    /*    max-width: 640px;*/
+    max-height: 550px;
+    // height: auto;
+    text-align: center;
+    box-shadow: 0px 30px 200px rgba(0, 0, 0, 0.12);
+    // position: inherit;
+    z-index: 1000;
+}
+
+.galleryImage:hover {
+    box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.008);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.008);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.008);
+    transition: all 200ms ease-in;
+    transform: scale(1.008);
+}
+.galleryImage img {
+    text-decoration: none;
+    max-width: 640px;
+    padding-bottom: 5px;
+}
+
+a.active {
+    background-color: yellow;
+}
+
+.social {
+    text-decoration: none !important;
+}
+
+.headLineColor {
+    color: rgba(235, 47, 47, 0.89);
+}
+

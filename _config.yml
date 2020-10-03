@@ -1,1 +1,80 @@
-theme: jekyll-theme-cayman
+### Site Settings ###
+title               : Mad Perception
+description         : >-                               # >- means to ignore newlines until "url:"
+                      We make games.
+
+url                 : "madperception.github.io"                               # base hostname & protocol for your site (e.g. http://example.com)
+baseurl             : ""                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
+# repository          : prashant-singh/prashant-singh.github.io    # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
+#remote_theme       : prashant-singh/prashant-singh.github.io    # uncomment this if you are using it as a remote theme
+
+### Author Info ###
+author:
+  name              : Mad Perception
+  website-url       : https://madperception.github.io
+  playStore         : https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/640px-Google_Play_Store_badge_EN.svg.png
+  appStore          : https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png
+  email             : prashant19194@gmail.com
+  facebook          : madperceptiongames
+  twitter           : _madperception_
+  reddit            : x_hitman
+
+images:
+  logo: img/mp_logo.png
+  playStore: https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/640px-Google_Play_Store_badge_EN.svg.png
+  winStore: https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png
+
+Games:
+  THIS-Android: https://play.google.com/store/apps/details?id=com.madperception.thisgame
+  THIS-Win: https://www.microsoft.com/en-in/p/this/9nblggh5kj2x
+
+#### Pagination ###
+#paginate: 6
+#paginate_path: "/articles/page-:num/"
+#
+#
+#### Posts Permalink ###
+#permalink: articles/:title
+
+# ## Movies ##
+# collections:
+#   movies:
+#     output: true
+#     permalink: /movies/:name
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  movies:
+    output: true
+    permalink: /movies/:name
+
+
+# ### Defaults for collections ###
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "projects"
+#     values:
+#       layout: "page"
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "movies"
+    values:
+      layout: "page"
+
+
+
+### Exclude from processing ###
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock

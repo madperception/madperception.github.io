@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- example file containing base tags -->
+
+<game>	
+	<title>Mad Perception</title>
+	<founding-date>December 2015</founding-date>
+	<website>http://www.madperception.com/</website>
+	<based-in>Ahmedabad, India</based-in>
+	
+	<press-contact>contact@madperception.com</press-contact>
+<!--	<phone>+00 (1) 22 33 44 55 66</phone>-->
+<!--
+	<address>
+		<line>Address Line 1</line>
+		<line>Address Line 2</line>
+		<line>Address Line 3</line>
+	</address>
+-->
+
+	<socials>
+		<social>
+			<name>twitter.com/_madperception_</name>
+			<link>twitter.com/_madperception_</link>
+		</social>
+		<social>
+			<name>facebook.com/madperceptiongames</name>
+			<link>facebook.com/madperceptiongames</link>
+		</social>
+<!--
+		<social>
+			<name>Skype</name>
+			<link>callto:MySkypeName</link>
+		</social>
+-->
+	</socials>
+
+	<description>	
+		We are three friends who make games when we're not playing games or slacking off at work. We have a strong liking for minimal art and are trying to create simple but immersive games. We also like pizza.
+	</description>
+		
+<!--
+	<histories>
+		<history>
+			<header>History</header>
+			<text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel nisi dolor. Pellentesque vitae eros velit, quis venenatis orci. Phasellus elit urna, semper ut gravida et, porta non dui. Aliquam erat volutpat. Aenean porta volutpat imperdiet. Maecenas venenatis, tellus eget vehicula vulputate, augue erat elementum quam, tincidunt laoreet magna orci et mauris. Proin porttitor pharetra nisi, accumsan sollicitudin neque varius a. Aenean ut massa ipsum, id hendrerit lacus. Maecenas posuere egestas nunc at cursus. Etiam mollis libero vel eros pulvinar aliquam. Sed vitae turpis sed nibh venenatis dictum. Sed suscipit orci justo, at sagittis ante. Sed leo nisl, ultricies in fermentum id, aliquam id dolor. Ut laoreet, felis id posuere bibendum, arcu ipsum lacinia est, eu lobortis velit enim eget mi. In ullamcorper ullamcorper enim ut gravida. Vivamus rutrum lacus mollis risus malesuada iaculis.</text>
+		</history>
+
+	</histories>
+-->
+		
+<!--
+	<trailers>
+		<trailer>
+			<name>Short video of gameplay</name>
+			<youtube>s_TgJ-BH10Y</youtube>
+		</trailer>
+		<trailer>
+			<name>This one too</name>
+			<youtube>0CevOaYrYDA</youtube>
+			<vimeo>12536488</vimeo>
+		</trailer>
+	</trailers>
+-->
+	
+<!--
+	<awards>
+		<award>
+			<description>Winner in this highly relevant contest.</description>
+			<info>Award Location, 20 October, 1989</info>
+		</award>
+		<award>
+			<description>Nomination for this prestigious award.</description>
+			<info>Award Ceremony, 4 December, 1991</info>
+		</award>
+		<award>
+			<description>Winner in this highly relevant contest.</description>
+			<info>Award Location, 20 October, 1989</info>
+		</award>
+		<award>
+			<description>Nomination for this prestigious award.</description>
+			<info>Award Ceremony, 4 December, 1991</info>
+		</award>
+	</awards>
+-->
+	
+<!--
+	<quotes>
+		<quote>
+			<description>Freaking awesome game! Very intuitive and fun. Sound effects are fun. Great game overall! ^.^</description>
+			<name>Austin</name>
+			<website>Game Review on store</website>
+			<link>https://www.microsoft.com/en-us/store/games/this/9nblggh5kj2x</link>
+		</quote>
+		<quote>
+			<description>Great little game. Simple yet difficult. Great job guys.</description>
+			<name>Maina</name>
+			<website>Game Review on store</website>
+			<link>https://www.microsoft.com/en-us/store/games/this/9nblggh5kj2x</link>
+		</quote>
+		<quote>
+			<description>Thanks now I have something other than reddit to keep me occupied. Nice work. $5 says my son will finish it before I get half way..... Darn kids.</description>
+			<name>rubber-jonnie79</name>
+			<website>Reddit</website>
+			<link>https://www.reddit.com/r/windowsphone/comments/44pto0/devfree_our_first_game_for_windowsphone_need/czs3tbh</link>
+		</quote>
+		<quote>
+			<description>Loving it so far. It's great that there's no score / stars / whatever and it's all about just completing the level.</description>
+			<name>andrewhornpipe</name>
+			<website>Reddit</website>
+			<link>https://www.reddit.com/r/windowsphone/comments/44pto0/devfree_our_first_game_for_windowsphone_need/czs5cwj</link>
+		</quote>
+	</quotes>
+-->
+	
+	<press-can-request-copy>FALSE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>monetize</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->	
+<!--
+	<additionals>
+		<additional>
+			<title>Company Link #1</title>
+			<description>This link is a link that might be useful. You can check it out at</description>
+			<link>http://somemusicsite.com/thislink</link>
+		</additional>
+	</additionals>
+-->
+	
+	<credits>
+		<credit>
+			<person>Mad Perception</person>
+			<role>Developer, Publisher</role>
+		</credit>
+	</credits>
+	
+	<contacts>
+		<contact>
+			<name>contact</name>
+			<mail>contact@madperception.com</mail>
+		</contact>
+		<contact>
+			<name>Twitter</name>
+			<link>http://twitter.com/_madperception_</link>
+		</contact>
+		<contact>
+			<name>Facebook</name>
+			<link>http://facebook.com/madperceptiongames</link>
+		</contact>
+		<contact>
+			<name>Web</name>
+			<link>www.madperception.com</link>
+		</contact>
+	</contacts>
+</game>
