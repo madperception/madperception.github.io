@@ -1,8 +1,10 @@
 <div class="container-fluid justify-content-center">
 
-  <div class="container">
-    <br>
-    <div class="row justify-content-md-center">
+  <!-- <div class="container">
+    <br>-->
+  <div class="row justify-content-center">
+    <!-- <ul> -->
+
       {% for account in site.author %}
 
       {% assign service_name = account[0] %}
@@ -12,11 +14,15 @@
       {% endif %}
       {% assign service_data = site.data.social-media[service_name] %}
       {% if service_data %}
-      <div class="col-md-2">
+      <div class="col-md-auto">
+      <!-- <li> -->
+
         <a href="{{ service_data.url }}{{ account[1] }}" target="blank" class="btn">{{ service_name }}</a>
+      <!-- </li> -->
       </div>
       {% endif %}
       {% endfor %}
-    </div>
+    <!-- </ul> -->
   </div>
+  <!--  </div> -->
 </div>

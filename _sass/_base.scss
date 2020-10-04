@@ -41,16 +41,10 @@ body {
 }
 
 //+++++++++++++++++++++++++++++++++++++
-a {
-    color: #1e6bb8;
-    text-decoration: none;
-    margin: auto;
-    position: relative;
-    background: #222;
-}
 
 .btn {
-    font-weight: 700;
+    position: relative;
+    font-weight: 800;
     font-size: 1.3rem;
     margin: auto;
     display: inline-block;
@@ -85,32 +79,32 @@ a.active {
     /*        background-color: rgba(255, 255, 255, 0.2);*/
     border-color: rgba(255, 255, 255, 0.3);
 }
-.btn + .btn {
-    margin-left: 1rem;
-}
-@media screen and (min-width: 64em) {
-    .btn {
-        padding: 0.75rem 1rem;
-    }
-}
-@media screen and (min-width: 42em) and (max-width: 64em) {
-    .btn {
-        padding: 0.6rem 0.9rem;
-        font-size: 1.5rem;
-    }
-}
-@media screen and (max-width: 42em) {
-    .btn {
-        display: block;
-        width: 100%;
-        padding: 0.75rem;
-        font-size: 1.5rem;
-    }
-    .btn + .btn {
-        margin-top: 1rem;
-        margin-left: 0;
-    }
-}
+// .btn + .btn {
+//     margin-left: 1rem;
+// }
+// @media screen and (min-width: 64em) {
+//     .btn {
+//         padding: 0.75rem 1rem;
+//     }
+// }
+// @media screen and (min-width: 42em) and (max-width: 64em) {
+//     .btn {
+//         padding: 0.6rem 0.9rem;
+//         font-size: 1.5rem;
+//     }
+// }
+// @media screen and (max-width: 42em) {
+//     .btn {
+//         display: block;
+//         width: 100%;
+//         padding: 0.75rem;
+//         font-size: 1.5rem;
+//     }
+//     .btn + .btn {
+//         margin-top: 1rem;
+//         margin-left: 0;
+//     }
+// }
 
 img {
     max-width: 100%;

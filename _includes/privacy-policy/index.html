@@ -14,6 +14,12 @@
         <p>
             {{subItem.description}}
         </p>
+        {%if subItem.link %}
+        <a href="{{subItem.link}}" class="btn" target="blank" style="font-size: inherit;">{{subItem.link}}</a>
+        {%endif%}
+        {%if subItem.email%}
+        <a href="mailto:{{site.author.email}}" class="btn" style="font-size: inherit;">{{site.author.email}}</a>
+        {%endif%}
         {% endfor %}
     </div>
     {% endfor %}

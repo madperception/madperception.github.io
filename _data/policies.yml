@@ -7,6 +7,17 @@
 - title: Personal information
   descriptions: 
   - description: We use Unity3D Rewarded ads in our games so it may use your personal informations you can see their privacy policy here 
-  - description: https://unity3d.com/legal/privacy-policy
+  - link: https://unity3d.com/legal/privacy-policy
   - description: We use google play games services for achievements and leaderboard.
   - description: Mad Perception will not attempt to obtain nor record any sensitive information.
+
+- title: Policy Updates
+  descriptions:
+  - description: This Policy may change from time to time. The most current version of our Privacy Policy can be found at
+  - link: https://madperception.github.io/privacy-policy
+
+- title: Privacy Policy Contact Information
+  descriptions:
+  - description: If you have any questions about our Privacy Policy, please contact us at
+  - email: mail
+  - description: Privacy policy last updated October 2020
